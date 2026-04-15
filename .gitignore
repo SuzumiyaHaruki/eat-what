@@ -1,0 +1,37 @@
+# Binaries
+eat_what
+eat_what.exe
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Build output
+dist/
+build/
+
+# Go test / coverage
+*.test
+*.out
+coverage.out
+
+# Fyne / packaging artifacts
+fyne-cross/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.idea/
+.vscode/
+.codex
+
+# Logs / temp
+*.log
+tmp/
+temp/
+
+# Local app data
+*.txt
+!README.md
